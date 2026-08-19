@@ -1,0 +1,56 @@
+
+===============================================
+ LEXICAL ANALYSIS
+===============================================
+TOKEN                     TYPE                     
+-----------------------------------------------
+#                         Preprocessor Symbol      
+include                   Preprocessor Directive   
+<stdio.h>                 Header File              
+int                       Keyword                  
+main                      Identifier               
+(                         Special Symbol           
+)                         Special Symbol           
+{                         Special Symbol           
+int                       Keyword                  
+a                         Identifier               
+=                         Operator                 
+10                        Constant                 
+;                         Special Symbol           
+int                       Keyword                  
+b                         Identifier               
+=                         Operator                 
+20                        Constant                 
+;                         Special Symbol           
+int                       Keyword                  
+sum                       Identifier               
+=                         Operator                 
+a                         Identifier               
++                         Operator                 
+b                         Identifier               
+;                         Special Symbol           
+printf                    Identifier               
+(                         Special Symbol           
+"Sum = %d"                String Literal           
+,                         Special Symbol           
+sum                       Identifier               
+)                         Special Symbol           
+;                         Special Symbol           
+return                    Keyword                  
+0                         Constant                 
+;                         Special Symbol           
+}                         Special Symbol           
+-----------------------------------------------
+ TOKEN COUNTS
+-----------------------------------------------
+Keywords             : 5
+Identifiers          : 8
+Constants            : 3
+Operators            : 4
+String Literals      : 1
+Special Symbols      : 12
+Preprocessor Tokens  : 2
+Header Files         : 1
+-----------------------------------------------
+Total Tokens         : 36
+===============================================
